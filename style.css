@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFBF00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 350px;
+    height: 500px;
+    background-color: #0B0B37;
+    border-radius: 10px;
+
+
+}
+
+.topMenu {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+
+}
+
+.piccat {
+
+    width: 200px;
+    height: 200px;
+    border-radius: 120px;
+
+    border: 5px solid rgb(101, 64, 247);
+}
+
+.piccat1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic {
+    width: 40px;
+    height: 40px;
+    background-color:#FFFFFF;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+p {
+    color: aliceblue;
+    text-align: center;
+}
+
+
+
+.control {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        gap: 10px;
+}
+.addplay{
+    display: flex;
+    justify-content: center;
+    margin-top:0px ;
+    
+
+
+}
+p{
+    margin: 15px;
+    font-size: 18px;
+}
+.addplay input{
+    width: 210px;
+}
+
+.Funcplay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  
+}
+.pic:hover{
+    cursor: pointer;
+}
+.addplay input {
+    width: 210px;
+}
+
+#song{
+    display: none;
+}
+
+#seek{
+    -webkit-appearance:none;
+    width: 250px;
+    height: 5px;
+    background-color: #FAD7A0;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+#seek::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    background-color: #34495E;
+    border-radius: 50%;
+    border: white solid 3px;
+}
+.primaryButton{
+    width: 60px;
+    height: 60px;
+}

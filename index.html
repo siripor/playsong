@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="topMenu">
+            <img src="img/arrow_left.svg" class="pic" alt="arrow left">
+            <img src="img/menu.svg" class="pic"alt="menu">
+        </div>
+        <div class="piccat1">
+
+            <img class="piccat" src="img/cat.jpg" alt="cat">
+        </div>
+
+        <div class="Funcplay">
+            <audio id="song"controls>
+              <source src="song/02 electric.neon.lamp - ภาวินี.mp3" >
+            </audio>
+            <p>ภาวินี-electric neon lamp</p>
+            <div class="addplay">
+     
+             <input type="range" id="seek" value="0" max="100"></div>
+        
+    
+
+            <div class="control"><!--การควบคุม-->
+
+            <div id="playrewind"><!--เล่นย้อน-->
+            <img class="pic" src="img/fast_rewind.svg" alt="playrewind" >
+            </div>
+
+            <div id="play"><!--เล่นเพลง-->
+                <img class="pic primaryButton" src="img/play.svg" alt="play">
+            </div>
+
+            <div id="pause">
+                <img  class="pic primaryButton"src="img/stop.svg" alt="stopplay">
+
+            </div>
+             <div id="playfast"><!--เล่นเร็ว-->
+            <img class="pic" src="img/fast.svg" alt="playfast">
+             </div> 
+        </div>
+    </div>
+    
+</body>
+<script src="app.js"></script>
+
+</html>

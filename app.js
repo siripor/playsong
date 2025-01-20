@@ -25,7 +25,7 @@ song.onloadedmetadata=()={
 
 }
 
-if(song()){
+if(song.play()){
   setInterval(()=>{
     songProgressBar.value = song.currentTime;
   },500);
